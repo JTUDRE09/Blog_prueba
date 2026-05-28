@@ -4,6 +4,17 @@ html , body {
     overflow-x: 100;
 }
 
+.header_principal {
+    background-color: #722b8e;
+    color: white;
+    padding: 1.5rem 0.5rem;
+}
+
+.header_principal h1 {
+    font-size: 1.5rem;
+    text-align: left;
+}
+
 .post-completo {
     max-width: 800px;
     margin: 0 auto;
@@ -56,17 +67,6 @@ article.post img {
 body {
     margin: 0;
     background-color: #d7c9a6;
-}
-
-header  {
-    background-color: #722b8e;
-    color: white;
-    padding: 1rem 0.5rem;
-}
-
-header h1 {
-    font-size: 1.5rem;
-    text-align: left;
 }
 
 .container {
