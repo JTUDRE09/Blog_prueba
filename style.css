@@ -21,11 +21,13 @@ html , body {
 }
 
 #post-1 {
-    background-color: #b7b7b7;
+    background-color: #262626;
+    color: white;
 }
 
 #post-2 {
-    background-color: #ffff6b;
+    background-color: #262626;
+    color: white;
 }
 
 #post-3 {
@@ -34,8 +36,8 @@ html , body {
 }
 
 #acerca-4 {
-    background-color: #a5ff9e;
-    color: black;
+    background-color: #262626;
+    color: white;
 }
 
 article.post {
@@ -53,17 +55,17 @@ article.post img {
 
 body {
     margin: 0;
-    background-color: #efefef;
+    background-color: #d7c9a6;
 }
 
-header {
+header  {
     background-color: #722b8e;
     color: white;
-    padding: 1rem 2rem;
+    padding: 1rem 0.5rem;
 }
 
 header h1 {
-    font-size: 4rem;
+    font-size: 2rem;
     text-align: center;
 }
 
@@ -120,7 +122,7 @@ a:active {
 
 footer {
     background-color: #0d0820;
-    padding: 3rem;
+    padding: 1rem 0.5rem;
     color: white;
 }
 
