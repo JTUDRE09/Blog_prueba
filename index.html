@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prueba de desarrollo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <header>
+        <h1 id="titulo">Blog personal</h1>
+        <section>
+            <nav>
+                <a class="inicio" role="button" tabindex="0" onclick="volver()">Inicio</a>
+                <a class="acerca_encabezado" role="button" tabindex="0" onclick="mostrarpost('acerca-4')">Acerca de mi</a>
+                <a class="contacto" href="mailto: julian45@gmail.com">Contacto</a>
+            </nav>
+        </section>
+    </header>
+    <!-- Contenedor principal -->
+    <section class="container">
+
+
+        <!-- Post 1 -->
+            <article class="post" role="button" tabindex="0" onclick="mostrarpost('post-1')">
+                <h2>Porotipo</h2>
+                <p>Descripcion de mi porotipo</p>
+                <img src="img/poro.png" height="400" />
+                <p>Texto del articulo sobre porotipo, que esta ubicado en este lugar, como prueba</p>
+            </article>
+        <!-- Post 2 -->
+           <article class="post" role="button" tabindex="0" onclick="mostrarpost('post-2')">
+                <h2>Blitzcrank</h2>
+                <p>Blitzcrank es un campeón de League of Legends</p>
+                <img src="img/blitzcrank.png" height="400" />
+                <p>Texto del articulo sobre Blitzcrank, que esta ubicado en este lugar, como prueba; oara ver si de verdad se estan mostrando correctamente</p>
+           </article>
+        <!-- Post 3 -->
+           <article class="post" role="button" tabindex="0" onclick="mostrarpost('post-3')">
+                <h2>Java</h2>
+                <p>Java es un lenguaje de programación orientado a objetos</p>
+                <img src="img/javas.png" height="400" />
+                <p>Java es un lenguaje de programación ampliamente utilizado en el desarrollo de aplicaciones web y móviles.</p>
+           </article>
+    </section>
+
+    <!-- secciones completas de cada tarjeta -->
+    <section id="post-1" class="post-completo" style="display:none;">
+        <h2>Porotipo</h2>
+        <img src="img/poro.png" height="400">
+        <p>Texto del articulo sobre porotipo, que esta ubicado en este lugar, como prueba</p>
+        <p>descripcion del articulo</p>
+    </section>
+
+    <section id="post-2" class="post-completo" style="display:none;">
+        <h2>Blitzcrank</h2>
+        <img src="img/blitzcrank.png" height="400">
+        <p>Texto del articulo sobre Blitzcrank, que esta ubicado en este lugar, como prueba</p>
+        <p>descripcion del articulo</p>
+    </section>
+
+    <section id="post-3" class="post-completo" style="display:none;">
+        <h2>Java</h2>
+        <img src="img/javas.png" height="400">
+        <p>Texto del articulo sobre Java, que esta ubicado en este lugar, como prueba</p>
+        <p>descripcion del articulo</p>
+    </section>
+    <!-- seccion completa de acerca de mi  -->
+    <section id="acerca-4" class="post-completo" style="display:none;">
+        <h2>Quien soy</h2>
+        <img src="img/perfil.png" height ="400">
+        <p>Soy un pequeño desarrollador apasionado a la programación en busqueda de oportunidades para crecer y aprender.</p>
+        <h2>Mis habilidades</h2>
+        <p>Mis habilidades incluyen programacion en java, python, javaScript, css, html, con animos de aprender cada día más para sacar mi proyecto de vida adelante</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <a href="#titulo">Ir al comienzo <br></a>
+        <a href="mailto: julian45@gmail.com">Contáctame aqui</a>
+        <p>Copyright 2026 - Blog de Julthour</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

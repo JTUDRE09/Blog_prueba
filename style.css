@@ -1,0 +1,141 @@
+html , body {
+    font-family: "Montserrat", sans-serif;
+    overflow-y: 100%;
+    overflow-x: 100;
+}
+
+.post-completo {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+}
+
+.post-completo img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: 360px;
+    object-fit: contain;
+}
+
+#post-1 {
+    background-color: #b7b7b7;
+}
+
+#post-2 {
+    background-color: #ffff6b;
+}
+
+#post-3 {
+    background-color: #262626;
+    color: white;
+}
+
+#acerca-4 {
+    background-color: #a5ff9e;
+    color: black;
+}
+
+article.post {
+    flex: 1 1 300px;
+    max-width: 400px;
+    margin: 0;
+}
+
+article.post img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    margin: 0;
+    background-color: #efefef;
+}
+
+header {
+    background-color: #722b8e;
+    color: white;
+    padding: 1rem 2rem;
+}
+
+header h1 {
+    font-size: 4rem;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.container.hidden {
+    display: none;
+}
+
+section article {
+    transition: all 0.5s ease;
+    background-color: #fff;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    padding: 0.25rem 0;
+    cursor: pointer;
+}
+
+section article:hover {
+    box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.3);
+    background-color: #0d0820;
+    color: white;
+}
+
+section article h2, section article p {
+    margin: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:visited {
+    color: inherit;
+}
+
+a:hover {
+    color: inherit;
+}
+
+a:active {
+    color: inherit;
+}
+
+footer {
+    background-color: #0d0820;
+    padding: 3rem;
+    color: white;
+}
+
+nav a {
+    transition: all 0.5s ease;
+    background-color:rgba(255, 0, 247, 0.679);
+    font-family: "Montserrat", sans-serif;
+    margin: 1rem 0;
+    border-radius: 0.3rem;
+    padding: 0.5rem 1rem;
+    color: white;
+    cursor:pointer;
+}
+
+nav a:hover {
+    box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.3);
+    background-color:rgba(134, 2, 129, 0.679);
+}
