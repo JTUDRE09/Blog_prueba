@@ -1,7 +1,15 @@
-html , body {
+html, body {
     font-family: "Montserrat", sans-serif;
-    overflow-y: 100%;
-    overflow-x: 100;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container, .post-completo {
+    flex: 1;
 }
 
 .header_principal {
@@ -51,17 +59,35 @@ html , body {
     color: white;
 }
 
+
 article.post {
+    display: flex;
+    flex-direction: column;
     flex: 1 1 300px;
     max-width: 400px;
+    min-height: 480px;
     margin: 0;
 }
 
+article.post h2 {
+    margin: 0.5rem 0.75rem;
+}
+
+article.post p {
+    min-height: 3rem;
+    margin: 0.5rem 0.75rem;
+}
+
 article.post img {
-    display: block;
-    margin: 0 auto;
+    max-height: 200px;
+    width: auto;
     max-width: 100%;
-    height: auto;
+    align-self: center;
+    margin: 0.5rem auto;
+}
+
+article.post p:last-of-type {
+    margin-top: auto;
 }
 
 body {
@@ -72,7 +98,7 @@ body {
 .container {
     display: flex;
     flex-wrap: wrap;
-    gap: 2rem;
+    gap: 0.5rem;
     justify-content: center;
     width: 100%;
     max-width: 1200px;
@@ -87,9 +113,7 @@ body {
 section article {
     transition: all 0.5s ease;
     background-color: #fff;
-    margin: 1rem 0;
     border-radius: 0.5rem;
-    padding: 0.25rem 0;
     cursor: pointer;
 }
 
@@ -97,10 +121,6 @@ section article:hover {
     box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.3);
     background-color: #0d0820;
     color: white;
-}
-
-section article h2, section article p {
-    margin: 1rem;
 }
 
 a {
