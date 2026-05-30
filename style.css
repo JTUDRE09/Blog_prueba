@@ -112,15 +112,16 @@ body {
 
 section article {
     transition: all 0.5s ease;
-    background-color: #fff;
+    background-color: #181818;
     border-radius: 0.5rem;
     cursor: pointer;
+    color: white;
 }
 
 section article:hover {
     box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.3);
-    background-color: #0d0820;
-    color: white;
+    background-color: #ffffff;
+    color: black;
 }
 
 a {
